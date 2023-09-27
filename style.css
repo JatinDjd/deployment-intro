@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+     -webkit-text-size-adjust: none;
+}
+:root {
+    --main-pad: 0rem 8rem;
+}
+
+nav{
+    background-color:#fff;
+    padding:var(--main-pad);
+    display:flex;
+    justify-content:space-between;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 2px 3px 12px #e2e2e2;
+    width:100%;  
+}
+ul{
+    list-style-type:none;
+}
+main{
+    padding-top:5rem;
+}
+nav ul{
+   list-style-type:none;
+   display:flex;
+   column-gap:2rem;
+   align-items:center;
+}
+nav ul a{
+    text-decoration:none;
+    color:#399D6D;
+}
+.register-nav{
+    background:#399D6D;
+    padding:10px 20px;
+    border-radius:5px;
+}
+#banner{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.title p,.young-mind button{  font-size:26px;}
+#banner button,.reward-card p,.take-awards h2,.awd-cont h3, #sustain-goals .festival h2,footer>div:last-child p,footer ul a,footer p{  font-size:24px;}
+#banner h3,.reward-card p,.take-awards h2,.awd-cont p,.passion-idea h4, #sustain-goals .festival h2{font-weight:400;}
+.title p,.reward-card h3,.awd-cont h3,nav ul a{font-weight:500;}
+.title p{
+  text-align:center;
+  padding:0.5rem 0rem;
+}
+.title h2{
+    font-size: 48px;
+    line-height: 1.3;
+    color:#303030;
+    text-align:center;
+}
+.register-nav,#banner h1,#banner h3,#banner button,.awd-cont h3,.awd-cont p,#young-idea h2,.event-flow .reward-card h3,.event-flow .reward-card p,.young-mind button,.passion-idea h4,footer ul h4,footer>div:last-child p{
+    color:#fff;}
+.title h2 span{color:#399D6D;}
+#banner>div{text-align:center;width:60%;padding:8rem 0rem 5rem;}
+#banner h1{
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    padding:1rem 0rem;
+}
+#banner h3{
+    font-size: 36px;
+    line-height: 1.2;
+    padding:0.5rem 0rem 2rem;
+}
+#banner button{   
+    background: #399D6D;
+    border-radius: 10px;
+    padding:10px 25px;
+    border:none;
+    margin-top:2rem;
+    cursor: pointer;
+}
+#rewards,#take-awards{
+    padding:var(--main-pad);
+    padding-top:8rem;
+    padding-bottom:5rem;
+}
+.rewards-sec{
+    display:flex;
+    padding:5rem 0rem;
+    justify-content:space-between;
+}
+.reward-card{
+    width:28%;
+    text-align:center;
+    background-repeat: no-repeat;
+}
+.reward-card h3{
+    font-size:28px;
+    padding:1rem 0rem;
+}
+.take-awards h2 {
+   text-decoration:underline;
+}
+#take-awards{
+    padding-top:5rem;
+    background: #399D6D;
+}
+.take-awards{
+    display:flex;
+    justify-content:space-between;
+}
+.take-awd-cont,.awd-cont-prize{
+    width:48%;
+}
+.awd-cont{
+    display:flex;
+    column-gap:2rem;
+    align-items: center;
+    padding:1rem 0rem;
+}
+.awd-cont p,#sustain-goals .festival p,nav ul a,.finale-sec .reward-card p{font-size:18px;}
+.awd-prize{
+    padding:2rem 5rem;
+    background-coloR:#F5F5F5;
+    border-radius:5px;
+}
+.awd-cont-prize .awd-cont h3,.awd-cont-prize .awd-cont p,.finale-sec .reward-card:first-child h3,.finale-sec .reward-card:last-child h3,.finale-sec .reward-card:first-child p,.finale-sec .reward-card:last-child p{
+    color:#303030;}
+.awd-cont-prize .awd-cont h3,.event-flow .reward-card p{
+    font-size:20px;
+    line-height:1.3;
+}
+.awd-cont-prize .awd-cont p{
+    font-size:16px;
+}
+.take-awards .awards-h2{color:#fff;text-align:center;padding-bottom:2rem;}
+#young-idea{
+    padding:var(--main-pad);
+    padding-top:12rem;
+    padding-bottom:10rem;
+}
+#young-idea h2{
+    font-size:48px;
+    width:32%;
+    padding-bottom:2rem;
+}
+.passion-idea{
+    display: flex;
+    justify-content: center;
+}
+.young-mind{
+    width:50%;
+}
+.young-mind button{
+    background:#399D6D;
+    padding:15px 30px;
+    border-radius:5px;
+    border:none;
+    cursor: pointer;
+}
+.event-flow .reward-card{
+    padding:3rem 2rem;    
+    background-position: top;
+}
+.finale-sec .reward-card{
+    width:30%;
+    padding:8rem 2rem 12rem;
+    background-position: top;
+}
+.finale-sec .reward-card p{
+  line-height:1.5;
+  padding:1rem 0rem;
+}
+.finale-sec .reward-card p span{
+    font-weight:600;
+}
+.finale-sec .reward-card button,.passion-idea button{
+    color:#303030;
+    background:#fff;
+    padding:15px 30px;
+    border-radius:5px;
+    border:none;
+    font-size:18px;
+    margin-top:2rem;
+    cursor:pointer;
+}
+#sustain-goals,#event{
+    padding:var(--main-pad);
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+#sustain-goals p{
+    color:#303030;
+    font-size:20px;
+    line-height:1.4;
+    width:90%;
+}
+#sustain-goals .rewards-sec{
+    align-items:center;
+}
+#sustain-goals .rewards-sec>div{
+    width:46%;
+}
+#sustain-goals .rewards-sec>div img,#young-idea h2{
+    width:100%;
+}
+.passion-idea{
+    text-align:center;
+}
+.passion-idea h4{
+    font-size:28px;
+    line-height:1.3;
+}
+#sustain-goals .festival>div img{
+   width:auto;
+}  
+ #sustain-goals .festival h2{
+    color:#399D6D;
+    text-align:center;
+    padding-bottom:2rem;
+    text-decoration:underline;
+ }
+
+.festival>div>div{
+    padding:0rem 0rem 4.5rem;
+    text-align:center;
+}
+footer{
+    padding:var(--main-pad);
+    background-color:#181818;
+}
+footer>div:first-child{
+    padding:5rem 3rem;
+    display:flex;
+    justify-content:space-between;
+    border-left:1px solid #484848;
+    border-right:1px solid #484848;
+}
+footer ul{
+    width:25%;
+}
+footer ul:nth-child(3){
+    width:35%;
+}
+footer ul h4{
+    font-size:36px;
+}
+footer ul a,footer p{
+    text-decoration:none;
+    color:#B2AFAF;
+    line-height:1.3;
+}
+footer ul li{
+    padding:1rem 0rem;
+}
+footer>div:last-child{
+    padding:2rem 0rem;
+    display:flex;
+    justify-content:center;
+    border:1px solid #484848;
+}
+.event-flow .rewards-sec ,#sustain-goals .rewards-sec {
+    padding: 5rem 0rem 0rem;}
+
+
+    @media screen and (max-width: 768px) {
+        :root {
+            --main-pad: 0rem 1rem;
+        }
+        nav ul a{font-size:14px;}
+        nav ul{
+            row-gap:1rem;
+            padding:0.5rem 0rem;
+        }
+        #banner h1{
+            font-size:32px;
+        }
+        #banner h3,.reward-card h3,.title p,.passion-idea h4 , footer ul h4 {
+            font-size:22px;
+        }
+        #banner img,.take-awd-cont,.awd-cont-prize,.reward-card ,#sustain-goals .rewards-sec>div,#sustain-goals p ,.finale-sec .reward-card ,.young-mind,footer ul,footer ul:nth-child(3),#sustain-goals .festival>div img.showbiz{
+            width:100%;
+        }
+        #banner button,.awd-cont p,.reward-card p,#sustain-goals .festival p,.awd-cont-prize .awd-cont h3, .event-flow .reward-card p,#sustain-goals p ,footer ul a,footer p,.young-mind button,footer>div:last-child p {
+            font-size:16px;
+        }
+        #rewards,#event,#sustain-goals{
+            padding-bottom:0rem;
+        }
+        .title h2,#young-idea h2 {
+            font-size:30px;
+        }
+        .finale-sec .reward-card {
+           padding: 8rem 2rem 8rem;}
+
+        .awd-cont h3{
+            font-size:20px;
+        }
+        .awd-cont {
+            column-gap: 1rem;}
+        .awd-cont-prize,#take-awards ,#sustain-goals p,#rewards{
+            padding-top:2rem;
+        }
+        .take-awards,.rewards-sec,footer>div:first-child,nav ul {
+            flex-direction:column;
+        }
+        .take-awards .awards-h2 ,#sustain-goals p,#sustain-goals .festival>div img,#sustain-goals .festival h2 ,.title p{
+            padding-bottom: 1rem;
+        }
+        .reward-card{
+            margin-bottom:2rem;
+        }
+        #sustain-goals .festival p{
+           padding-top:1rem;
+           padding-bottom:0rem;
+        }
+        .awd-prize {
+            padding: 2rem 1rem;}
+        #sustain-goals .rewards-sec ,.event-flow .rewards-sec, #sustain-goals .rewards-sec {
+            padding: 0rem 0rem 0rem;
+        }
+        .festival>div>div {
+            padding: 0rem 0rem 2rem;
+        }
+        #sustain-goals img{
+            padding-bottom:3rem;
+        }
+        #event{
+            padding-top:0rem;
+        }
+        #young-idea{
+            padding-top:5rem;
+            padding-bottom:5rem;
+        }  
+        .rewards-sec,.festival>div:last-child{
+            padding:2rem 0rem;
+        } 
+        footer ul li{
+            padding:0.5rem 0rem;
+        }
+        footer>div:first-child {
+            padding: 2rem 1rem;} 
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        :root {
+            --main-pad: 0rem 2rem;
+        }
+        .title h2 {
+            font-size: 40px;}
+        #banner h1 {font-size: 30px;}
+        #banner>div {  padding: 5rem 0rem 5rem; }
+        .awd-prize {
+            padding: 1rem;}
+        .event-flow .reward-card p,#sustain-goals p{font-size:16px;}
+        .awd-cont {
+            column-gap: 1rem;}
+       #banner img:first-child,.reward-card img,#sustain-goals .rewards-sec>div ,.take-awd-cont,.awd-cont-prize, #sustain-goals p{
+            width: 100%;
+        }
+        .reward-card {
+            width: 30%;}
+        .reward-card h3,#banner h3,footer ul h4 {
+            font-size:26px;
+        }  
+        #sustain-goals .dev-goals.rewards-sec>div{
+            padding:2rem 0rem 1rem;
+        }  
+        .finale-sec .reward-card {
+            padding: 5rem 2rem 12rem;
+            width:32%;}
+        footer ul a,footer p,.reward-card p,  footer>div:last-child p,.event-flow  .reward-card h3,  .awd-cont-prize .awd-cont h3{
+            font-size:18px;
+        }
+        #rewards{
+            padding-top:5rem;
+        }
+        #young-idea {
+            padding-top: 8rem;
+            padding-bottom:8rem}
+        .young-mind {
+            width: 70%;
+        }  
+        #young-idea h2{
+            font-size:36px;
+        }
+        #event{
+            padding-top:0rem;
+        }
+        .event-flow .rewards-sec, #sustain-goals .rewards-sec {
+            padding: 0rem 0rem 0rem;
+        }
+        .festival>div:last-child,.awd-cont-prize{
+            padding:2rem 0rem;
+        }
+        .title p{
+            padding-bottom:3rem;
+        }
+        .reward-card h3 ,.title p,.passion-idea h4 {
+            font-size: 20px;
+        }
+        .finale-sec .reward-card button, .passion-idea button {
+            margin-top:1rem;}
+        .event-flow .reward-card {
+            padding: 3rem 1rem ;}  
+        .finale-sec .reward-card {
+            padding: 5rem 1rem 8rem;} 
+        #sustain-goals .rewards-sec,.take-awards{flex-direction:column;}
+        footer>div:first-child {
+            flex-wrap: wrap;}  
+        footer ul{
+            width:47%;
+        }    
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1279px) {
+        :root {
+            --main-pad: 0rem 4rem;
+        }
+        .title h2 {
+            font-size: 40px;}
+        #banner h1 {font-size: 30px;}
+        #banner>div {  padding: 5rem 0rem 5rem; }
+        .awd-prize {
+            padding: 1rem;}
+        .event-flow .reward-card p,#sustain-goals p,#sustain-goals .festival p{font-size:16px;}
+        .awd-cont {
+            column-gap: 1rem;}
+        #banner img:first-child,.reward-card img,#sustain-goals .rewards-sec>div , #sustain-goals p  {
+            width: 100%;
+        }
+        #sustain-goals .festival p {
+            width:95%;
+        }
+        .reward-card {
+            width: 30%;}
+        .reward-card h3,#banner h3{
+            font-size:26px;
+        }  
+        #sustain-goals .dev-goals.rewards-sec>div{
+            padding:2rem 0rem 1rem;
+        }  
+        .awd-cont-prize .awd-cont h3, footer ul a,footer p,.reward-card p{
+            font-size: 18px;}
+        .finale-sec .reward-card {
+            padding: 5rem 2rem 12rem;
+            width:32%;}
+        #rewards{
+            padding-top:5rem;
+        }
+        #young-idea {
+            padding-top: 8rem;
+            padding-bottom:8rem}
+        .young-mind {
+            width: 70%;
+        }  
+        #event{
+            padding-top:0rem;
+        }
+        .event-flow .rewards-sec, #sustain-goals .rewards-sec {
+            padding: 0rem 0rem 0rem;
+        }
+        .festival>div:last-child{
+            padding:2rem 0rem;
+        }
+        .reward-card h3{
+            font-size:22px;
+        }
+        .title p{
+            padding-bottom:3rem;
+            font-size:20px;
+        }
+        .event-flow .reward-card {
+            padding: 3rem 1rem ;}  
+        .finale-sec .reward-card {
+            padding: 9rem 1rem 8rem;} 
+    }
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+    :root {
+        --main-pad: 0rem 6rem;
+    }
+    #banner h1 {font-size: 40px;}
+    #banner>div {  padding: 5rem 0rem 5rem; }
+    .awd-prize {
+        padding: 2rem;}
+    #sustain-goals p {
+        font-size:16px;
+    }
+    #sustain-goals .festival>div img.showbiz,#sustain-goals p{
+        width: 100%;
+    }
+    .reward-card {
+        width: 30%;}
+    .reward-card h3{
+        font-size:26px;
+    }    
+    .event-flow .reward-card p , footer ul a,footer p,.reward-card p{
+        font-size: 18px;}
+    .finale-sec .reward-card {
+        padding: 5rem 2rem 12rem;
+        width:32%;}
+    #young-idea {
+        padding-top: 8rem;
+        padding-bottom:8rem}
+    .young-mind {
+        width: 70%;
+    }  
+    .event-flow .reward-card {
+        padding: 3rem 1rem ;}  
+    .finale-sec .reward-card {
+        padding: 7rem 1rem 8rem;} 
+}
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+    #banner h1 {font-size: 40px;}
+    #banner>div {  padding: 5rem 0rem 5rem; }
+    .awd-prize {
+        padding: 2rem;}
+    #sustain-goals p {
+        width: 100%;
+        font-size:16px;
+    }
+    .reward-card h3{
+        font-size:22px;
+    }    
+    .event-flow .reward-card p, footer ul a,footer p {
+        font-size: 18px;}
+    .finale-sec .reward-card {
+        padding: 5rem 2rem 12rem;}
+    #young-idea {
+        padding-top: 8rem;}
+}
